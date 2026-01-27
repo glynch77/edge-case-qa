@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EdgecaseQA - Professional Quality Assurance Testing</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Work+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#home">
+                <span class="brand-edge">EDGE</span><span class="brand-case">CASE</span><span class="brand-qa">QA</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#pricing">Pricing</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link btn-signup" href="#signup">Get Started</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="hero-grid"></div>
+        <div class="container">
+            <div class="row align-items-center min-vh-100">
+                <div class="col-lg-7">
+                    <div class="hero-content">
+                        <div class="hero-badge">PRECISION TESTING</div>
+                        <h1 class="hero-title">
+                            Catch Every<br>
+                            <span class="highlight">Edge Case</span><br>
+                            Before Production
+                        </h1>
+                        <p class="hero-subtitle">
+                            Professional QA testing that finds the bugs your users would have discovered. 
+                            We test the scenarios others miss.
+                        </p>
+                        <div class="hero-buttons">
+                            <a href="#signup" class="btn btn-primary btn-lg">Start Testing</a>
+                            <a href="#services" class="btn btn-outline-light btn-lg">Our Services</a>
+                        </div>
+                        <div class="hero-stats">
+                            <div class="stat-item">
+                                <div class="stat-number">10,000+</div>
+                                <div class="stat-label">Bugs Found</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-number">500+</div>
+                                <div class="stat-label">Projects Tested</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-number">99.8%</div>
+                                <div class="stat-label">Client Satisfaction</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 mb-5 mb-lg-0">
+                    <div class="section-label">WHO WE ARE</div>
+                    <h2 class="section-title">Testing Beyond the Happy Path</h2>
+                    <p class="lead">EdgecaseQA specializes in finding the bugs that automated tests miss and users inevitably discover.</p>
+                    <p>We're a team of obsessive testers who think like users, break things like hackers, and document like engineers. Our mission is simple: catch every edge case before your users do.</p>
+                    <p>Founded by QA engineers who were tired of watching preventable bugs reach production, we've built a testing methodology that combines manual exploration, automated regression, and real-world scenario testing.</p>
+                    <div class="about-features">
+                        <div class="feature-item">
+                            <div class="feature-icon">✓</div>
+                            <div>
+                                <h5>Human-First Testing</h5>
+                                <p>Real people testing real scenarios</p>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">✓</div>
+                            <div>
+                                <h5>Edge Case Specialists</h5>
+                                <p>We find what others miss</p>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">✓</div>
+                            <div>
+                                <h5>Detailed Reporting</h5>
+                                <p>Actionable bug reports with repro steps</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="about-visual">
+                        <div class="visual-card card-1">
+                            <h4>Our Approach</h4>
+                            <ul>
+                                <li>Exploratory testing sessions</li>
+                                <li>User journey mapping</li>
+                                <li>Cross-browser validation</li>
+                                <li>Performance benchmarking</li>
+                                <li>Security vulnerability scanning</li>
+                            </ul>
+                        </div>
+                        <div class="visual-card card-2">
+                            <div class="metric">
+                                <div class="metric-value">2.5x</div>
+                                <div class="metric-desc">More bugs found vs. automated testing alone</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services-section">
+        <div class="container">
+            <div class="text-center mb-5">
+                <div class="section-label">WHAT WE DO</div>
+                <h2 class="section-title">Comprehensive QA Services</h2>
+                <p class="section-subtitle">From manual exploration to automated regression, we've got you covered</p>
+            </div>
+            
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4">
+                    <div class="service-card">
+                        <div class="service-icon">🔍</div>
+                        <h3>Manual Testing</h3>
+                        <p>Human testers exploring your application like real users, finding the edge cases that automated tests miss.</p>
+                        <ul class="service-list">
+                            <li>Exploratory testing</li>
+                            <li>User acceptance testing</li>
+                            <li>Usability testing</li>
+                            <li>Ad-hoc testing</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="col-md-6 col-lg-4">
+                    <div class="service-card featured">
+                        <div class="featured-badge">MOST POPULAR</div>
+                        <div class="service-icon">⚡</div>
+                        <h3>Automated Testing</h3>
+                        <p>Fast, repeatable test suites that catch regressions before they reach production.</p>
+                        <ul class="service-list">
+                            <li>E2E test automation</li>
+                            <li>API testing</li>
+                            <li>Regression testing</li>
+                            <li>CI/CD integration</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="col-md-6 col-lg-4">
+                    <div class="service-card">
+                        <div class="service-icon">🚀</div>
+                        <h3>Performance Testing</h3>
+                        <p>Load testing, stress testing, and performance profiling to ensure your app scales.</p>
+                        <ul class="service-list">
+                            <li>Load testing</li>
+                            <li>Stress testing</li>
+                            <li>Performance benchmarking</li>
+                            <li>Bottleneck identification</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="col-md-6 col-lg-4">
+                    <div class="service-card">
+                        <div class="service-icon">🔒</div>
+                        <h3>Security Testing</h3>
+                        <p>Vulnerability assessments and penetration testing to protect your users and data.</p>
+                        <ul class="service-list">
+                            <li>Security audits</li>
+                            <li>Penetration testing</li>
+                            <li>OWASP compliance</li>
+                            <li>Vulnerability scanning</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="col-md-6 col-lg-4">
+                    <div class="service-card">
+                        <div class="service-icon">📱</div>
+                        <h3>Mobile Testing</h3>
+                        <p>Cross-device testing for iOS and Android, ensuring perfect experiences everywhere.</p>
+                        <ul class="service-list">
+                            <li>Device compatibility</li>
+                            <li>Native app testing</li>
+                            <li>Responsive design validation</li>
+                            <li>App store compliance</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="col-md-6 col-lg-4">
+                    <div class="service-card">
+                        <div class="service-icon">♿</div>
+                        <h3>Accessibility Testing</h3>
+                        <p>WCAG compliance testing to make your application accessible to everyone.</p>
+                        <ul class="service-list">
+                            <li>WCAG 2.1 compliance</li>
+                            <li>Screen reader testing</li>
+                            <li>Keyboard navigation</li>
+                            <li>Color contrast validation</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing-section">
+        <div class="container">
+            <div class="text-center mb-5">
+                <div class="section-label">PRICING</div>
+                <h2 class="section-title">Flexible Plans for Every Team</h2>
+                <p class="section-subtitle">Choose the testing package that fits your needs</p>
+            </div>
+            
+            <div class="row g-4 justify-content-center">
+                <div class="col-lg-4 col-md-6">
+                    <div class="pricing-card">
+                        <div class="pricing-header">
+                            <h3>Starter</h3>
+                            <div class="pricing-price">
+                                <span class="currency">$</span>
+                                <span class="amount">499</span>
+                                <span class="period">/project</span>
+                            </div>
+                        </div>
+                        <ul class="pricing-features">
+                            <li><span class="check">✓</span> Up to 20 test cases</li>
+                            <li><span class="check">✓</span> Manual testing only</li>
+                            <li><span class="check">✓</span> 2 rounds of testing</li>
+                            <li><span class="check">✓</span> Bug report documentation</li>
+                            <li><span class="check">✓</span> Email support</li>
+                            <li><span class="times">×</span> Automated testing</li>
+                            <li><span class="times">×</span> Performance testing</li>
+                        </ul>
+                        <a href="#signup" class="btn btn-outline-primary w-100">Get Started</a>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6">
+                    <div class="pricing-card featured">
+                        <div class="popular-badge">MOST POPULAR</div>
+                        <div class="pricing-header">
+                            <h3>Professional</h3>
+                            <div class="pricing-price">
+                                <span class="currency">$</span>
+                                <span class="amount">1,299</span>
+                                <span class="period">/project</span>
+                            </div>
+                        </div>
+                        <ul class="pricing-features">
+                            <li><span class="check">✓</span> Up to 50 test cases</li>
+                            <li><span class="check">✓</span> Manual + automated testing</li>
+                            <li><span class="check">✓</span> 3 rounds of testing</li>
+                            <li><span class="check">✓</span> Detailed bug reports</li>
+                            <li><span class="check">✓</span> Priority support</li>
+                            <li><span class="check">✓</span> Regression testing</li>
+                            <li><span class="check">✓</span> Basic performance testing</li>
+                        </ul>
+                        <a href="#signup" class="btn btn-primary w-100">Get Started</a>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6">
+                    <div class="pricing-card">
+                        <div class="pricing-header">
+                            <h3>Enterprise</h3>
+                            <div class="pricing-price">
+                                <span class="currency">$</span>
+                                <span class="amount">2,999</span>
+                                <span class="period">/month</span>
+                            </div>
+                        </div>
+                        <ul class="pricing-features">
+                            <li><span class="check">✓</span> Unlimited test cases</li>
+                            <li><span class="check">✓</span> Full testing suite</li>
+                            <li><span class="check">✓</span> Continuous testing</li>
+                            <li><span class="check">✓</span> Dedicated QA team</li>
+                            <li><span class="check">✓</span> 24/7 support</li>
+                            <li><span class="check">✓</span> Custom integrations</li>
+                            <li><span class="check">✓</span> Security & performance testing</li>
+                        </ul>
+                        <a href="#contact" class="btn btn-outline-primary w-100">Contact Sales</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Signup Section -->
+    <section id="signup" class="signup-section">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="signup-card">
+                        <div class="text-center mb-4">
+                            <div class="section-label">GET STARTED</div>
+                            <h2 class="section-title">Create Your Account</h2>
+                            <p class="section-subtitle">Start testing in minutes. No credit card required.</p>
+                        </div>
+                        
+                        <form id="signupForm" class="needs-validation" novalidate>
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <label for="firstName" class="form-label">First Name</label>
+                                    <input type="text" class="form-control" id="firstName" name="firstName" required>
+                                    <div class="invalid-feedback">Please enter your first name.</div>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="lastName" class="form-label">Last Name</label>
+                                    <input type="text" class="form-control" id="lastName" name="lastName" required>
+                                    <div class="invalid-feedback">Please enter your last name.</div>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="email" class="form-label">Email Address</label>
+                                    <input type="email" class="form-control" id="email" name="email" required>
+                                    <div class="invalid-feedback">Please enter a valid email.</div>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="company" class="form-label">Company Name</label>
+                                    <input type="text" class="form-control" id="company" name="company" required>
+                                    <div class="invalid-feedback">Please enter your company name.</div>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="phone" class="form-label">Phone Number</label>
+                                    <input type="tel" class="form-control" id="phone" name="phone">
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="plan" class="form-label">Select Plan</label>
+                                    <select class="form-select" id="plan" name="plan" required>
+                                        <option value="">Choose...</option>
+                                        <option value="starter">Starter - $499/project</option>
+                                        <option value="professional">Professional - $1,299/project</option>
+                                        <option value="enterprise">Enterprise - Custom</option>
+                                    </select>
+                                    <div class="invalid-feedback">Please select a plan.</div>
+                                </div>
+                                <div class="col-12">
+                                    <label for="projectDetails" class="form-label">Tell us about your project</label>
+                                    <textarea class="form-control" id="projectDetails" name="projectDetails" rows="3" placeholder="What type of application do you need tested?"></textarea>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" id="terms" required>
+                                        <label class="form-check-label" for="terms">
+                                            I agree to the <a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a>
+                                        </label>
+                                        <div class="invalid-feedback">You must agree before submitting.</div>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <button type="submit" class="btn btn-primary btn-lg w-100">Create Account</button>
+                                </div>
+                            </div>
+                            <div id="signupStatus" class="mt-3"></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 mb-5 mb-lg-0">
+                    <div class="section-label">GET IN TOUCH</div>
+                    <h2 class="section-title">Have Questions?<br>Let's Talk.</h2>
+                    <p class="lead mb-4">Whether you need a quote, have questions about our services, or just want to chat about QA, we're here to help.</p>
+                    
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <div class="contact-icon">📧</div>
+                            <div>
+                                <h5>Email</h5>
+                                <a href="mailto:hello@edgecaseqa.com">hello@edgecaseqa.com</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">📞</div>
+                            <div>
+                                <h5>Phone</h5>
+                                <a href="tel:+15551234567">+1 (555) 123-4567</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">⏰</div>
+                            <div>
+                                <h5>Business Hours</h5>
+                                <p>Mon-Fri: 9am - 6pm EST</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-7">
+                    <div class="contact-form-card">
+                        <form id="contactForm" class="needs-validation" novalidate>
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <label for="contactName" class="form-label">Name</label>
+                                    <input type="text" class="form-control" id="contactName" name="name" required>
+                                    <div class="invalid-feedback">Please enter your name.</div>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="contactEmail" class="form-label">Email</label>
+                                    <input type="email" class="form-control" id="contactEmail" name="email" required>
+                                    <div class="invalid-feedback">Please enter a valid email.</div>
+                                </div>
+                                <div class="col-12">
+                                    <label for="subject" class="form-label">Subject</label>
+                                    <input type="text" class="form-control" id="subject" name="subject" required>
+                                    <div class="invalid-feedback">Please enter a subject.</div>
+                                </div>
+                                <div class="col-12">
+                                    <label for="message" class="form-label">Message</label>
+                                    <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+                                    <div class="invalid-feedback">Please enter your message.</div>
+                                </div>
+                                <div class="col-12">
+                                    <button type="submit" class="btn btn-primary btn-lg">Send Message</button>
+                                </div>
+                            </div>
+                            <div id="contactStatus" class="mt-3"></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4 mb-lg-0">
+                    <div class="footer-brand">
+                        <span class="brand-edge">EDGE</span><span class="brand-case">CASE</span><span class="brand-qa">QA</span>
+                    </div>
+                    <p class="footer-tagline">Finding the bugs your users would have discovered.</p>
+                </div>
+                <div class="col-lg-2 col-md-4 mb-4 mb-lg-0">
+                    <h5 class="footer-title">Company</h5>
+                    <ul class="footer-links">
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#pricing">Pricing</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-4 mb-4 mb-lg-0">
+                    <h5 class="footer-title">Resources</h5>
+                    <ul class="footer-links">
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Case Studies</a></li>
+                        <li><a href="#">Documentation</a></li>
+                        <li><a href="#">API</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-4 mb-4 mb-lg-0">
+                    <h5 class="footer-title">Legal</h5>
+                    <ul class="footer-links">
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Security</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-12">
+                    <h5 class="footer-title">Follow Us</h5>
+                    <div class="social-links">
+                        <a href="#" class="social-link">LinkedIn</a>
+                        <a href="#" class="social-link">Twitter</a>
+                        <a href="#" class="social-link">GitHub</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="currentYear"></span> EdgecaseQA. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
